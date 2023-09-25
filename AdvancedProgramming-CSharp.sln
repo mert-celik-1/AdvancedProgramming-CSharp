@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Ref Return Ref Local", "1) Ref Return Ref Local", "{EB4E99F7-3B33-4E70-9C92-3B8ECC0A1D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnExample", "1) Ref Return Ref Local\RefReturnExample\RefReturnExample.csproj", "{EF993E9F-FA1A-4899-AC2E-A29AB1657950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2) Operator Overloading", "2) Operator Overloading", "{C5872916-1619-4944-931E-CDC3111E4704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloadingExample", "2) Operator Overloading\OperatorOverloadingExample\OperatorOverloadingExample.csproj", "{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3) Implicit Explicit Operators", "3) Implicit Explicit Operators", "{EFF00383-88CA-4BE7-BCBE-CE778CC610F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitExplicitExample", "3) Implicit Explicit Operators\ImplicitExplicitExample\ImplicitExplicitExample.csproj", "{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF993E9F-FA1A-4899-AC2E-A29AB1657950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF993E9F-FA1A-4899-AC2E-A29AB1657950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF993E9F-FA1A-4899-AC2E-A29AB1657950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF993E9F-FA1A-4899-AC2E-A29AB1657950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF993E9F-FA1A-4899-AC2E-A29AB1657950} = {EB4E99F7-3B33-4E70-9C92-3B8ECC0A1D0A}
+		{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5} = {C5872916-1619-4944-931E-CDC3111E4704}
+		{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D} = {EFF00383-88CA-4BE7-BCBE-CE778CC610F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F65FDB0-D787-48D9-8294-4953A8F9392F}
+	EndGlobalSection
+EndGlobal
