@@ -1,5 +1,7 @@
 ﻿using System.Dynamic;
 
+// Dynamic obje oluşturarak runtimede tip belirtmeden obje yönetebiliriz.
+
 #region  Activator Sınıfı ile Nesne Oluşturma
 MyClass m = (MyClass)Activator.CreateInstance(typeof(MyClass));
 #endregion
@@ -9,6 +11,15 @@ MyClass m = (MyClass)Activator.CreateInstance(typeof(MyClass));
 dynamic instance = new MyClass();
 instance.prop1 = 123;
 instance.prop2 = "124";
+
+#endregion
+
+
+#region dynamic Keywordü ile Nesne Oluşturma
+
+dynamic obj = new ExpandoObject();
+obj.prop1 = 123;
+obj.prop2 = "124";
 
 #endregion
 

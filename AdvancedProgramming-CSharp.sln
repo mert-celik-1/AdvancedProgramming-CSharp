@@ -5,19 +5,23 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Ref Return Ref Local", "1) Ref Return Ref Local", "{EB4E99F7-3B33-4E70-9C92-3B8ECC0A1D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnExample", "1) Ref Return Ref Local\RefReturnExample\RefReturnExample.csproj", "{EF993E9F-FA1A-4899-AC2E-A29AB1657950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefReturnExample", "1) Ref Return Ref Local\RefReturnExample\RefReturnExample.csproj", "{EF993E9F-FA1A-4899-AC2E-A29AB1657950}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2) Operator Overloading", "2) Operator Overloading", "{C5872916-1619-4944-931E-CDC3111E4704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloadingExample", "2) Operator Overloading\OperatorOverloadingExample\OperatorOverloadingExample.csproj", "{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloadingExample", "2) Operator Overloading\OperatorOverloadingExample\OperatorOverloadingExample.csproj", "{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3) Implicit Explicit Operators", "3) Implicit Explicit Operators", "{EFF00383-88CA-4BE7-BCBE-CE778CC610F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitExplicitExample", "3) Implicit Explicit Operators\ImplicitExplicitExample\ImplicitExplicitExample.csproj", "{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitExplicitExample", "3) Implicit Explicit Operators\ImplicitExplicitExample\ImplicitExplicitExample.csproj", "{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4) Dynamic Object", "4) Dynamic Object", "{1944D165-D4CE-40B4-BA1B-27A418EBDD1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectExample", "4) Dynamic Object\DynamicObjectExample\DynamicObjectExample.csproj", "{4670A9B1-7772-4A15-B14A-01C285831AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectExample", "4) Dynamic Object\DynamicObjectExample\DynamicObjectExample.csproj", "{4670A9B1-7772-4A15-B14A-01C285831AD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5) Covariance Contravariance", "5) Covariance Contravariance", "{46B03F7E-876F-4ADE-8C27-68F9FACC299E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceContravarianceExample", "5) Covariance Contravariance\CovarianceContravarianceExample\CovarianceContravarianceExample.csproj", "{2AFAA438-F7D9-4BAB-946E-B23075E72084}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{4670A9B1-7772-4A15-B14A-01C285831AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4670A9B1-7772-4A15-B14A-01C285831AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4670A9B1-7772-4A15-B14A-01C285831AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFAA438-F7D9-4BAB-946E-B23075E72084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFAA438-F7D9-4BAB-946E-B23075E72084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFAA438-F7D9-4BAB-946E-B23075E72084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFAA438-F7D9-4BAB-946E-B23075E72084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{F7F25DC9-7AA3-414E-AC92-5F47EEA7B2F5} = {C5872916-1619-4944-931E-CDC3111E4704}
 		{9C9E2F11-1BD2-4011-81E9-2CE1AB28003D} = {EFF00383-88CA-4BE7-BCBE-CE778CC610F1}
 		{4670A9B1-7772-4A15-B14A-01C285831AD8} = {1944D165-D4CE-40B4-BA1B-27A418EBDD1F}
+		{2AFAA438-F7D9-4BAB-946E-B23075E72084} = {46B03F7E-876F-4ADE-8C27-68F9FACC299E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F65FDB0-D787-48D9-8294-4953A8F9392F}
