@@ -1,0 +1,33 @@
+﻿Delegate Nedir ?
+
+C# 'ta metotları temsil eden yapılardır. Metotların referanslarını temsil etmektedir. Bu metotlara delegate üzerinden
+erişebiliriz ve tetikleyebiliriz. Event-based programming amaçlı kullanılmaktadır özellikle callback işlevlerinde tercih
+etmekteyiz.
+
+Kullanım Amaçları :
+
+- Callback İşlevleri : Bir metodun işlevinin tamamlanması neticesinde opsiyonel olarak tasarlanmış başka bir işlevi parametrik
+bir şekilde callback olarak çağırmak için kullanılmaktadır.
+
+- Event Based Programming : Kodlama sürecinde olay tabanlı yaklaşımlar delegateler sayesinde gerçekleştirilmektedir.
+
+- Fonksiyon Parametreleri : Delegateler metotları başka metotlar tarafından parametre olarak geçirilmesini ve çağrılmasını sağlar.
+
+- Dinamik Metot Atamaları : Metotları referans eden yapılar oldukları için programın çalışma zamanında tercihen metotların değiştirilmesini sağlarlar
+
+
+Delegate'leri Neden Kullanmaktayız ?
+
+Bir nesnenin davranışının özelleştirilmesine izin vermek için kullanılmaktadır.
+
+Metotlara esneklik ve yeniden kullanılabilirlik katar. Ayrıca bir metotu çağırmak yerine soyut bir şekilde tanımlamak
+maksadıyla da kullanabilmekteyiz. Böylece kodu daha soyut ve anlaşılır bir hale getirebiliriz.
+
+Not  !!! Delegateler referans türlü yapılardır.
+
+
+Çoklu Temsilciler (Multicast Delegate)
+
+Birden fazla metodu aynı anda temsil edebilmektedirler. += operatörüyle gerçekleştirilir.
+-= operatoru ile istenilen metot cıkarılır. Çoklu temsil görevi gören bir delegatenin temsil ettiği 
+metotlara erişmek istiyorsak GetInvocationList() metodu kullanılır.
