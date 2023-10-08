@@ -5,7 +5,7 @@ XHandler xdelegete2 = () => { };
 XHandler xdelegete3 = delegate() { }; // Temsil etme yöntemleri
 
 // Delegate çağırma
-
+   
 xdelegate();
 xdelegate.Invoke();
 
