@@ -11,6 +11,9 @@
 
 // Kendi özel türlerimizde bu dönüşümler operator overloading sayesinde yapılır.
 
+Console.WriteLine("Test");
+
+
 class MyClass
 {
     public class A
@@ -31,7 +34,7 @@ class MyClass
         }
     }
 
-A a1 = new B(); // Dönüşüm explicit olursa bu deklarasyon hatalı olur. Cast edilmesi gerekir.
-A a2 = (B)new B();
+    A a1 = new B(); // Dönüşüm explicit olursa bu deklarasyon hatalı olur. Cast edilmesi gerekir.
+    A a2 = (B)new B();
 
 }
