@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3) ImplicitExplicitOperator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplExplExample", "3) ImplicitExplicitOperators\ImplExplExample\ImplExplExample.csproj", "{E6993F55-4379-45CF-8F29-5F83B776B302}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9) In-Built Interfaces", "9) In-Built Interfaces", "{688AFDA8-A11C-449B-9A36-D4695F27977A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InBuiltInterfaceExample", "9) In-Built Interfaces\InBuiltInterfaceExample\InBuiltInterfaceExample.csproj", "{6898330B-0310-4A44-8A4D-752A4E7687FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{E6993F55-4379-45CF-8F29-5F83B776B302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6993F55-4379-45CF-8F29-5F83B776B302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6993F55-4379-45CF-8F29-5F83B776B302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6898330B-0310-4A44-8A4D-752A4E7687FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6898330B-0310-4A44-8A4D-752A4E7687FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6898330B-0310-4A44-8A4D-752A4E7687FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6898330B-0310-4A44-8A4D-752A4E7687FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{F44B7419-FBB6-43CF-AF6F-C96662C888EA} = {45AF9803-ECF9-4944-8A27-752D6E9CCB38}
 		{9632D429-96B1-4F15-9DE5-3BBC8F85CE22} = {8EBCBA13-0CAA-49FD-A37D-E22F084B1553}
 		{E6993F55-4379-45CF-8F29-5F83B776B302} = {4829D15A-1F0E-432B-86C8-B524C5A365B7}
+		{6898330B-0310-4A44-8A4D-752A4E7687FF} = {688AFDA8-A11C-449B-9A36-D4695F27977A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F65FDB0-D787-48D9-8294-4953A8F9392F}
