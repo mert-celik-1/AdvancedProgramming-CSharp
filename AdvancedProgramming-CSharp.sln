@@ -43,6 +43,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10) Iterational Interfaces 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldExample", "10) Iterational Interfaces & Yield\YieldExample\YieldExample.csproj", "{4195CAB3-C85A-468A-98AA-B92CA3971EF7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11) Attributes", "11) Attributes", "{E3E78236-2D4B-4898-BF84-0E6C79DAC29F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesExample", "11) Attributes\AttributesExample\AttributesExample.csproj", "{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,10 @@ Global
 		{4195CAB3-C85A-468A-98AA-B92CA3971EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4195CAB3-C85A-468A-98AA-B92CA3971EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4195CAB3-C85A-468A-98AA-B92CA3971EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +112,7 @@ Global
 		{E6993F55-4379-45CF-8F29-5F83B776B302} = {4829D15A-1F0E-432B-86C8-B524C5A365B7}
 		{6898330B-0310-4A44-8A4D-752A4E7687FF} = {688AFDA8-A11C-449B-9A36-D4695F27977A}
 		{4195CAB3-C85A-468A-98AA-B92CA3971EF7} = {31F40684-EE74-47E9-9469-A8F014C4E4AF}
+		{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C} = {E3E78236-2D4B-4898-BF84-0E6C79DAC29F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F65FDB0-D787-48D9-8294-4953A8F9392F}
