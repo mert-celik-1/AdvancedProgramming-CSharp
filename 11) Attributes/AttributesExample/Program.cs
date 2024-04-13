@@ -1,4 +1,5 @@
-﻿// Yazılım elemanlarının davranışına yapılandırmasına veya görünümüne müdahele etmek için kullanılan bir özelliktir.
+﻿Console.WriteLine("....");
+// Yazılım elemanlarının davranışına yapılandırmasına veya görünümüne müdahele etmek için kullanılan bir özelliktir.
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class)]
 class MyAttribute : Attribute
 {
@@ -17,3 +18,4 @@ class MyClass
 {
     
 }
+

@@ -1,4 +1,5 @@
-﻿#region IComparer
+﻿Console.WriteLine("....");
+#region IComparer
 // IComparer interface'i iki nesneyi karşılaştırmak için kullanılan bir arayüzdür
 /*var p1 = new Person() { Name = "Ahmet", Age = 50 };
 var p2 = new Person() { Name = "Mehmet", Age = 5 };
