@@ -55,6 +55,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13) Extension Methods", "13
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionExample", "13) Extension Methods\ExtensionExample\ExtensionExample.csproj", "{95DDE3A4-1C04-48B4-94E6-9F90DF6E902B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14) IObservable & IObserver", "14) IObservable & IObserver", "{42F6660C-BBA7-45CE-ABEB-879D4ED14E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample", "14) IObservable & IObserver\ObserverExample\ObserverExample.csproj", "{504775C7-17BE-4DAD-B6DA-89225326C055}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +117,10 @@ Global
 		{95DDE3A4-1C04-48B4-94E6-9F90DF6E902B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DDE3A4-1C04-48B4-94E6-9F90DF6E902B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DDE3A4-1C04-48B4-94E6-9F90DF6E902B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504775C7-17BE-4DAD-B6DA-89225326C055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504775C7-17BE-4DAD-B6DA-89225326C055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504775C7-17BE-4DAD-B6DA-89225326C055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504775C7-17BE-4DAD-B6DA-89225326C055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +139,7 @@ Global
 		{EF15A6C8-A2C1-453B-929B-31E2D9C11C4C} = {E3E78236-2D4B-4898-BF84-0E6C79DAC29F}
 		{5C688146-EFD3-42AA-81A4-3CCB9652FDB7} = {8F9FB822-4CC2-43DA-89B6-21F9551060E1}
 		{95DDE3A4-1C04-48B4-94E6-9F90DF6E902B} = {6645F4FA-C9AD-41CA-8E38-88491445AA20}
+		{504775C7-17BE-4DAD-B6DA-89225326C055} = {42F6660C-BBA7-45CE-ABEB-879D4ED14E59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F65FDB0-D787-48D9-8294-4953A8F9392F}
