@@ -59,6 +59,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14) IObservable & IObserver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample", "14) IObservable & IObserver\ObserverExample\ObserverExample.csproj", "{504775C7-17BE-4DAD-B6DA-89225326C055}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15) SecureString", "15) SecureString", "{CFF72D83-6C14-4B42-922C-5B425CC601FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureStringExample", "15) SecureString\SecureStringExample\SecureStringExample.csproj", "{DEB1A79B-E8F9-4987-887B-14A6003C1B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +125,10 @@ Global
 		{504775C7-17BE-4DAD-B6DA-89225326C055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{504775C7-17BE-4DAD-B6DA-89225326C055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{504775C7-17BE-4DAD-B6DA-89225326C055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB1A79B-E8F9-4987-887B-14A6003C1B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB1A79B-E8F9-4987-887B-14A6003C1B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB1A79B-E8F9-4987-887B-14A6003C1B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB1A79B-E8F9-4987-887B-14A6003C1B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +148,7 @@ Global
 		{5C688146-EFD3-42AA-81A4-3CCB9652FDB7} = {8F9FB822-4CC2-43DA-89B6-21F9551060E1}
 		{95DDE3A4-1C04-48B4-94E6-9F90DF6E902B} = {6645F4FA-C9AD-41CA-8E38-88491445AA20}
 		{504775C7-17BE-4DAD-B6DA-89225326C055} = {42F6660C-BBA7-45CE-ABEB-879D4ED14E59}
+		{DEB1A79B-E8F9-4987-887B-14A6003C1B1C} = {CFF72D83-6C14-4B42-922C-5B425CC601FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F65FDB0-D787-48D9-8294-4953A8F9392F}
